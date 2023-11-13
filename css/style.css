@@ -1,0 +1,720 @@
+/* ============================== Font Family css Start =============================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+/* ------------------------------ Font Family css End --------------------------------- */
+/* ============================== Common css Start =============================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+.back_to_top_button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--praimary_color);
+    border-radius: 50%;
+    color: var(--praimary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.go_top{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+    animation: button 1s;
+}
+@keyframes button{
+    from{
+        bottom: -10%;
+    }
+    to{
+        bottom: 10%;
+    }
+}
+.back_to_top_button:hover{
+    background: var(--praimary_color);
+    color: var(--brand_color);
+    border-color: var(--brand_color);
+}
+/* ------------------------------ Commoncss End --------------------------------- */
+/* ============================== Varibale css Start =============================== */
+:root{
+    --poppins:'Poppins', sans-serif;
+    --brand_color:#FFFF;
+    --praimary_color:#F40404;
+    --secondary_color:#000000;
+}
+/* ------------------------------ Varibale css End --------------------------------- */
+/* ============================== Header css Start =============================== */
+#header{
+    height: 51px;
+    background: var(--secondary_color);
+    padding: 15px 0 15px 0;
+}
+.header_contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+.contact_mail_phone{
+    display: flex;
+    gap: 27px;
+    position: relative;
+}
+.contact_mail_phone::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background: var(--brand_color);
+    top: 0;
+    left: 49%;
+}
+.contact_mail_phone a{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:22px ;
+}
+.contact_mail_phone a span{
+    margin-right: 5px;
+}
+.header_media{
+    display: flex;
+    gap: 19px;
+}
+.header_media a i{
+    color: var(--brand_color);
+}
+/* ------------------------------ Header css End --------------------------------- */
+/* ============================== Nav part css Start =============================== */
+.menu_bar{
+    background: var(--praimary_color) !important;
+}
+.menu_fixed{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    animation: slide 1s;
+}
+@keyframes slide{
+    from{
+        top: -20%;
+    }
+    to{
+        top: 0;
+    }
+}
+.menu_bar ul{
+    display:flex;
+    gap: 47px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:0;
+    padding-left: 0;
+}
+.menu_bar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color) !important;
+    position:relative;
+}
+.menu_bar ul li a::after{
+    content: '';
+    width:0%;
+    height: 1.5px;
+    background: var(--brand_color);
+    position: absolute;
+    top:30px;
+    left: 0px;
+    transition: all linear .3s;
+}
+.menu_bar ul li a:hover::after{
+    width: 100%;
+    left:0;
+}
+.nav_button{
+    width: 142px;
+    height: 50px;
+    border: 1px solid var(--brand_color);
+    line-height: 50px;
+    text-align: center;
+    position:relative;
+}
+.nav_button::before{
+    content: '';
+    width:0%;
+    height: 100%;
+    position: absolute;
+    background: var(--brand_color);
+    top: 0;
+    left: 0;
+    transition: all linear .4s;
+}
+.nav_button:hover::before{
+    width: 100%;
+    left: 0;
+}
+.nav_button a{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    text-align: center;
+    transition: all linear .3s;
+    z-index: 1;
+}
+.nav_button:hover a{
+    color: var(--secondary_color);
+}
+/* ------------------------------ Nav part css End --------------------------------- */
+/* ============================== Banner part  css Start =============================== */
+#banner{
+    padding-top: 202px;
+    padding-bottom: 313px;
+    background: url('../image/banner_bg.png');
+    position: relative;
+    z-index: 1;
+    border-top: 2px solid #FFB800;
+}
+#banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+.banner_head h1{
+    width: 842px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.banner_button{
+    width: 186px;
+    height: 50px;
+    background: var(--praimary_color);
+    border: 1px solid var(--praimary_color);
+    line-height: 50px;
+    text-align: center;
+    position:relative;
+    margin-top: 31px;
+}
+.banner_button::before{
+    content: '';
+    width:0%;
+    height: 100%;
+    position: absolute;
+    background: var(--brand_color);
+    top: 0;
+    left: 0;
+    transition: all linear .4s;
+}
+.banner_button:hover::before{
+    width: 100%;
+    left: 0;
+}
+.banner_button a{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    text-align: center;
+    transition: all linear .3s;
+    z-index: 1;
+}
+.banner_button:hover a{
+    color: var(--secondary_color);
+}
+/* ------------------------------ Banner part css End --------------------------------- */
+/* ============================== Biggest css Start =============================== */
+#biggest{
+    padding-top: 40px;
+    
+}
+.biggest_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 178px;
+    margin-bottom: 110px;
+}
+.biggest_headding h2{
+    width: 289px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+}
+.biggest_text p{
+    width: 651px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+}
+.bigest_image_gellry {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1%;
+    margin-bottom: 28px;
+}
+.bigest_image_gellry img{
+    width: 24% !important;
+}
+/* ------------------------------ Biggest css End --------------------------------- */
+/* ============================== Our services css Start =============================== */
+.service_main_head{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service_headding{
+    width: 50%;
+    padding-top: 106px;
+    padding-left: 20%;
+    
+}
+.service_headding h2{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+}
+.service_headding p{
+    width: 395px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+    margin-top: 10px;
+}
+.service_card{
+    width: 50%;
+    background: url('../image/service_img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 147px;
+    padding-bottom: 139px;
+}
+.bg_1{
+    background: url('../image/service_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg_2{
+    background: url('../image/service_img3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service_card::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.sercive_about h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.service_button{
+    width: 162px;
+    height: 50px;
+    background: var(--praimary_color);
+    border: 1px solid var(--praimary_color);
+    line-height: 50px;
+    text-align: center;
+    position:relative;
+    margin-top: 19px;
+}
+.service_button::before{
+    content: '';
+    width:0%;
+    height: 100%;
+    position: absolute;
+    background: var(--brand_color);
+    top: 0;
+    left: 0;
+    transition: all linear .4s;
+}
+.service_button:hover::before{
+    width: 100%;
+    left: 0;
+}
+.service_button a{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    text-align: center;
+    transition: all linear .3s;
+    z-index: 1;
+}
+.service_button:hover a{
+    color: var(--secondary_color);
+}
+/* ------------------------------ Our services css End --------------------------------- */
+/* ============================== Learn more css Start =============================== */
+#learn_more{
+    width: 100%;
+    padding: 136px 0 136px 0;
+    background: #F0F0F0;
+}
+.learn_more_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.learn_more_text{
+    width:413px;
+    height: 361px;
+    background: var(--praimary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 74px 100px 77px;
+}
+.learn_more_text h2{
+    width: 262px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.learn_more_box{
+    width: 726px;
+    height: 361px;
+    background: url('../image/learn_more_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn_more_box a{
+    width: 162px;
+    height: 51px;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color:var(--praimary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+.learn_more_box a:hover{
+    background: var(--praimary_color);
+    color: var(--brand_color);
+}
+/* ------------------------------ Learn more css End --------------------------------- */
+/* ============================== Other commpany logo css Start =============================== */
+#other_logo{
+    padding: 117px 0 117px 0; 
+}
+.logo_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.logo_image a img{
+    width: 265px !important;
+}
+
+/* ------------------------------ Other commpany logo css End --------------------------------- */
+/* ============================== Blog part css Start =============================== */
+#blog{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background: #F0F0F0;
+}
+.blog_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 62px;
+}
+.blog_card{
+    width: 349px;
+    padding: 75px 45px 55px 45px;
+    background:  url(../image/blog_card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.card_two{
+    background:  url(../image/blog_card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card_three{
+    background:  url(../image/blog_card3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog_card::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.60);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.blog_card_headding h3{
+    width: 249px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.blog_card_button a{
+    width: 123px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    margin-top: 52px;
+    transition: all linear .3s;
+}
+.blog_card_button a:hover{
+    background: var(--praimary_color);
+    border-radius: 10px;
+}
+.blog_card_more{
+    display: flex;
+    justify-content: end;
+}
+.blog_card_more a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+    margin-top: 29px;
+}
+/* ------------------------------ Blog part css End --------------------------------- */
+/* ============================== Map css Start =============================== */
+.location{
+    width: 100%;
+    height: 450px;
+}
+.location img{
+    width: 100%;
+    height: 450px;
+}
+/* ------------------------------ Map css End --------------------------------- */
+/* ============================== join ass css Start =============================== */
+#join_as{
+    padding: 45px 0 45px 0;
+    background: var(--praimary_color);
+}
+.join_as_head{
+    display: flex;
+    align-items: center;
+    gap: 148px;
+}
+.join_as_headding h3{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.join_as_button{
+    width: 142px;
+    height: 50px;
+    background:var(--praimary_color);
+    border: 1px solid var(--brand_color);
+    line-height: 50px;
+    text-align: center;
+    position:relative;
+    margin-top: 19px;
+}
+.join_as_button::before{
+    content: '';
+    width:0%;
+    height: 100%;
+    position: absolute;
+    background: var(--brand_color);
+    top: 0;
+    left: 0;
+    transition: all linear .4s;
+}
+.join_as_button:hover::before{
+    width: 100%;
+    left: 0;
+}
+.join_as_button a{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    text-align: center;
+    transition: all linear .3s;
+    z-index: 1;
+}
+.join_as_button:hover a{
+    color: var(--secondary_color);
+}
+/* ------------------------------ join ass css End --------------------------------- */
+/* ============================== Footer part css Start =============================== */
+#footer{
+    padding-top:148px;
+    padding-bottom: 170px;
+    background: var(--secondary_color);
+    border-top: 3px solid #FFB800;
+}
+.footer_logo img{
+    width: 192px !important;
+}
+.footer_media_icon{
+    display: flex;
+    gap: 12px;
+    margin-top: 34px;
+}
+.footer_media_icon a{
+    width: 29px;
+    height: 29px;
+    background: var(--praimary_color);
+    border: 1px solid var(--praimary_color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--brand_color);
+    transition: all linear .3s;
+}
+.footer_media_icon a:hover{
+    background: transparent;
+}
+.footer_contact{
+    margin-top: 33px;
+}
+.footer_contact ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    margin-bottom: 15px;
+}
+.footer_contact ul li a span{
+    margin-right: 5px;
+}
+.footeer_about_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+.footer_about_col_head h3{
+    width: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.footer_about_col_link{
+    margin-top: 21px;
+}
+.footer_about_col_link ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    margin-bottom: 15px;
+}
+.footer_about_col_card{
+    display: flex;
+    gap: 5px;
+    margin-top: 21px;
+}
+.footer_about_col_card img{
+    width: 110px;
+    border-radius: 4px;
+}
+/* ------------------------------ Footer part css End --------------------------------- */
+/* ============================== Copy right Family css Start =============================== */
+#copy_right{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background: #282828;
+}
+.copyright p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #6C6C6C;
+}
+/* ------------------------------ Copy rightFamily css End --------------------------------- */

@@ -1,0 +1,1078 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* ============================================ */
+    .w-100 {
+        width: 71% !important;
+    }
+
+    .menu_bar ul {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ================================= Header part start============================ */
+    .contact_mail_phone {
+        display: flex;
+        gap: 4px;
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contact_mail_phone a {
+        font-size: 8px;
+        padding-right: 41px;
+    }
+
+    .contact_mail_phone::after {
+        top: 5px;
+        left: 96%;
+    }
+
+    .nav_button {
+        width: 100px;
+        height: 36px;
+        line-height: 33px;
+    }
+
+    .nav_button a {
+        font-size: 14px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .menu_icon i {
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        transition: all linear .3s;
+    }
+
+    .menu_icon i:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    .navbar-toggler {
+        line-height: 0;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /* --------------------------------- Header part end ----------------------------- */
+    /* ================================= Bannner part start============================ */
+    #banner {
+        padding-top: 73px;
+        padding-bottom: 89px;
+    }
+
+    .banner_head h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .banner_button {
+        width: 120px;
+        height: 37px;
+        margin: 0 auto;
+        line-height: 32px;
+    }
+
+    .banner_button a {
+        font-size: 12px;
+    }
+
+    /* --------------------------------- Bannner part end ----------------------------- */
+    /* ================================= Bigest part part start============================ */
+    .biggest_head {
+        gap: 15px;
+        margin-bottom: 23px;
+
+    }
+
+    .biggest_headding h2 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .biggest_text p {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .bigest_image_gellry {
+        margin-bottom: 28px;
+        justify-content: center;
+    }
+
+    .bigest_image_gellry img {
+        width: 49% !important;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- Bigest part part end ----------------------------- */
+    /* ================================= Our service part start============================ */
+    .service_headding {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .service_headding h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service_headding p {
+        width: 100%;
+        font-size: 8px;
+        margin-top: 8px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .service_card {
+        width: 100%;
+        padding-top: 49px;
+        padding-bottom: 54px;
+        margin-bottom: 20px;
+    }
+
+    .sercive_about h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service_button {
+        width: 100px;
+        height: 30px;
+        line-height: 23px;
+        margin: 0 auto;
+    }
+
+    .service_button a {
+        width: 100%;
+        height: 100%;
+        font-size: 13px;
+
+    }
+
+
+    /* --------------------------------- Our service part end ----------------------------- */
+    /* ================================= learn more part start============================ */
+    #learn_more {
+        padding: 50px 0 80px 0;
+    }
+
+    .learn_more_text {
+        width: 100%;
+        padding: 50px 0px 50px 36px;
+        height: 203px;
+    }
+
+    .learn_more_text h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .learn_more_box {
+        width: 100%;
+        height: 212px;
+    }
+
+    .learn_more_box a {
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    /* ---------------------------------learn more part end ----------------------------- */
+    /* ================================= other logo part start============================ */
+    #other_logo {
+        padding: 50px 0 50px 0;
+    }
+
+    .logo_image a img {
+        width: 122px !important;
+    }
+
+    /* --------------------------------- other logo part end ----------------------------- */
+    /* ================================= Blog  part start============================ */
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog_head {
+        gap: 25px;
+    }
+
+    .blog_card {
+        width: 100%;
+        padding: 60px 0px 50px 0px;
+    }
+
+    .blog_card_headding h3 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog_card_button a {
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .blog_card_more a {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    /* --------------------------------- Blog  part end ----------------------------- */
+    /* =================================Map part start============================ */
+    .location {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    .location img {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    /* --------------------------------- Map part end ----------------------------- */
+    /* =================================Join as part start============================ */
+    .join_as_head {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .join_as_headding h3 {
+        font-size: 25px;
+    }
+
+    .join_as_button {
+        width: 88px;
+        height: 35px;
+        line-height: 30px;
+    }
+
+    .join_as_button a {
+        font-size: 13px;
+    }
+
+    /* --------------------------------- Join as part end ----------------------------- */
+    /* ================================= footer part start============================ */
+    #footer {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .footer_logo img {
+        width: 168px !important;
+    }
+
+    .footer_logo_head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_contact {
+        margin-top: 15px;
+    }
+
+    .footer_contact ul li a {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .footer_about_col_head h3 {
+        width: 107px;
+        font-size: 16px;
+    }
+
+    .footeer_about_row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_about_col_link {
+        margin-top: 0px;
+    }
+
+    .footer_about_col_link ul li a {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- footer part end ----------------------------- */
+    /* ================================= Copy right part start============================ */
+    #copy_right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+    }
+
+    .back_to_top_button {
+        width: 25px;
+        height: 25px;
+        right: 4%;
+
+    }
+
+    /* --------------------------------- Copy right part end ----------------------------- */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ============================================ */
+    .w-100 {
+        width: 71% !important;
+    }
+
+    .menu_bar ul {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ================================= Header part start============================ */
+    .contact_mail_phone {
+        display: flex;
+        gap: 4px;
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .contact_mail_phone a {
+        font-size: 9px;
+        padding-right: 19px;
+    }
+
+    .contact_mail_phone::after {
+        top: 0px;
+        left: 100%;
+    }
+
+    .nav_button {
+        width: 100px;
+        height: 36px;
+        line-height: 33px;
+    }
+
+    .nav_button a {
+        font-size: 14px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .menu_icon i {
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        transition: all linear .3s;
+    }
+
+    .menu_icon i:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    .navbar-toggler {
+        line-height: 0;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /* --------------------------------- Header part end ----------------------------- */
+    /* ================================= Bannner part start============================ */
+    #banner {
+        padding-top: 146px;
+        padding-bottom: 145px;
+    }
+
+    .banner_head h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .banner_button {
+        width: 120px;
+        height: 37px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    .banner_button a {
+        font-size: 12px;
+    }
+
+    /* --------------------------------- Bannner part end ----------------------------- */
+    /* ================================= Bigest part part start============================ */
+    .biggest_head {
+        gap: 15px;
+        margin-bottom: 23px;
+
+    }
+
+    .biggest_headding h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .biggest_text p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .bigest_image_gellry {
+        margin-bottom: 28px;
+        justify-content: center;
+    }
+
+    .bigest_image_gellry img {
+        width: 49% !important;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- Bigest part part end ----------------------------- */
+    /* ================================= Our service part start============================ */
+    .service_headding {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .service_headding h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service_headding p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 8px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .service_card {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 75px;
+        margin-bottom: 20px;
+    }
+
+    .sercive_about h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service_button {
+        width: 100px;
+        height: 30px;
+        line-height: 26px;
+        margin: 0 auto;
+    }
+
+    .service_button a {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+
+    }
+
+
+    /* --------------------------------- Our service part end ----------------------------- */
+    /* ================================= learn more part start============================ */
+    #learn_more {
+        padding: 50px 0 80px 0;
+    }
+
+    .learn_more_text {
+        width: 100%;
+        padding: 50px 0px 50px 36px;
+        height: 203px;
+    }
+
+    .learn_more_text h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .learn_more_box {
+        width: 100%;
+        height: 212px;
+    }
+
+    .learn_more_box a {
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    /* ---------------------------------learn more part end ----------------------------- */
+    /* ================================= other logo part start============================ */
+    #other_logo {
+        padding: 50px 0 50px 0;
+    }
+
+    .logo_image a img {
+        width: 108px !important;
+    }
+
+    /* --------------------------------- other logo part end ----------------------------- */
+    /* ================================= Blog  part start============================ */
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog_head {
+        gap: 25px;
+    }
+
+    .blog_card {
+        width: 100%;
+        padding: 60px 0px 50px 0px;
+    }
+
+    .blog_card_headding h3 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog_card_button a {
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .blog_card_more a {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    /* --------------------------------- Blog  part end ----------------------------- */
+    /* =================================Map part start============================ */
+    .location {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    .location img {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    /* --------------------------------- Map part end ----------------------------- */
+    /* =================================Join as part start============================ */
+    .join_as_head {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .join_as_headding h3 {
+        font-size: 25px;
+    }
+
+    .join_as_button {
+        width: 88px;
+        height: 35px;
+        line-height: 30px;
+    }
+
+    .join_as_button a {
+        font-size: 13px;
+    }
+
+    .join_as_button a {
+        font-size: 13px;
+    }
+
+    /* --------------------------------- Join as part end ----------------------------- */
+    /* ================================= footer part start============================ */
+    #footer {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .footer_logo img {
+        width: 168px !important;
+    }
+
+    .footer_logo_head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_contact {
+        margin-top: 15px;
+    }
+
+    .footer_contact ul li a {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .footer_about_col_head h3 {
+        width: 107px;
+        font-size: 16px;
+    }
+
+    .footeer_about_row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_about_col_link {
+        margin-top: 0px;
+    }
+
+    .footer_about_col_link ul li a {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- footer part end ----------------------------- */
+    /* ================================= Copy right part start============================ */
+    #copy_right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+    }
+
+    .back_to_top_button {
+        width: 25px;
+        height: 25px;
+        right: 4%;
+
+    }
+
+    /* --------------------------------- Copy right part end ----------------------------- */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ============================================ */
+    .w-100 {
+        width: 71% !important;
+    }
+
+    .menu_bar ul {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ================================= Header part start============================ */
+    .contact_mail_phone {
+        display: flex;
+        gap: 4px;
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .contact_mail_phone a {
+        font-size: 9px;
+        padding-right: 19px;
+    }
+
+    .contact_mail_phone::after {
+        top: 0px;
+        left: 100%;
+    }
+
+    .nav_button {
+        width: 100px;
+        height: 36px;
+        line-height: 33px;
+    }
+
+    .nav_button a {
+        font-size: 14px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .menu_icon i {
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        transition: all linear .3s;
+    }
+
+    .menu_icon i:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: unset;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    /* --------------------------------- Header part end ----------------------------- */
+    /* ================================= Bannner part start============================ */
+    #banner {
+        padding-top: 146px;
+        padding-bottom: 145px;
+    }
+
+    .banner_head h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .banner_button {
+        width: 120px;
+        height: 37px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    .banner_button a {
+        font-size: 12px;
+    }
+
+    /* --------------------------------- Bannner part end ----------------------------- */
+    /* ================================= Bigest part part start============================ */
+    .biggest_head {
+        gap: 15px;
+        margin-bottom: 23px;
+
+    }
+
+    .biggest_headding h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .biggest_text p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .bigest_image_gellry {
+        margin-bottom: 28px;
+        justify-content: center;
+    }
+
+    .bigest_image_gellry img {
+        width: 49% !important;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- Bigest part part end ----------------------------- */
+    /* ================================= Our service part start============================ */
+    .service_headding {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .service_headding h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service_headding p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 8px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .service_card {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 75px;
+        margin-bottom: 20px;
+    }
+
+    .sercive_about h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service_button {
+        width: 100px;
+        height: 30px;
+        line-height: 26px;
+        margin: 0 auto;
+    }
+
+    .service_button a {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+
+    }
+
+
+    /* --------------------------------- Our service part end ----------------------------- */
+    /* ================================= learn more part start============================ */
+    #learn_more {
+        padding: 50px 0 80px 0;
+    }
+
+    .learn_more_text {
+        width: 100%;
+        padding: 50px 0px 50px 36px;
+        height: 203px;
+    }
+
+    .learn_more_text h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .learn_more_box {
+        width: 100%;
+        height: 212px;
+    }
+
+    .learn_more_box a {
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    /* ---------------------------------learn more part end ----------------------------- */
+    /* ================================= other logo part start============================ */
+    #other_logo {
+        padding: 50px 0 50px 0;
+    }
+
+    .logo_image a img {
+        width: 108px !important;
+    }
+
+    /* --------------------------------- other logo part end ----------------------------- */
+    /* ================================= Blog  part start============================ */
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog_head {
+        gap: 25px;
+    }
+
+    .blog_card {
+        width: 100%;
+        padding: 60px 0px 50px 0px;
+    }
+
+    .blog_card_headding h3 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog_card_button a {
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .blog_card_more a {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    /* --------------------------------- Blog  part end ----------------------------- */
+    /* =================================Map part start============================ */
+    .location {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    .location img {
+        width: 100% !important;
+        height: 170px;
+    }
+
+    /* --------------------------------- Map part end ----------------------------- */
+    /* =================================Join as part start============================ */
+    .join_as_head {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .join_as_headding h3 {
+        font-size: 25px;
+    }
+
+    .join_as_button {
+        width: 88px;
+        height: 35px;
+        line-height: 30px;
+    }
+
+    .join_as_button a {
+        font-size: 13px;
+    }
+
+    /* --------------------------------- Join as part end ----------------------------- */
+    /* ================================= footer part start============================ */
+    #footer {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .footer_logo img {
+        width: 168px !important;
+    }
+
+    .footer_logo_head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_contact {
+        margin-top: 15px;
+    }
+
+    .footer_contact ul li a {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .footer_about_col_head h3 {
+        width: 107px;
+        font-size: 16px;
+    }
+
+    .footeer_about_row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_about_col_link {
+        margin-top: 0px;
+    }
+
+    .footer_about_col_link ul li a {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    /* --------------------------------- footer part end ----------------------------- */
+    /* ================================= Copy right part start============================ */
+    #copy_right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+    }
+
+    .back_to_top_button {
+        width: 25px;
+        height: 25px;
+        right: 4%;
+
+    }
+
+    /* --------------------------------- Copy right part end ----------------------------- */
+}
